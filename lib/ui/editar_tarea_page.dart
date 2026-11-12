@@ -27,16 +27,18 @@ class _EditarTareaPageState extends State<EditarTareaPage> {
   late DateTime _fechaLimite;
   String? _errorGuardado;
 
-  @override
-  void initState() {
-    super.initState();
-    final t = widget.tarea;
-    _tituloCtrl = TextEditingController(text: t.titulo);
-    _notasCtrl = TextEditingController(text: t.notas);
-    _materia = t.materia;
-    _prioridad = t.prioridad;
-    _fechaLimite = t.fechaLimite;
-  }
+@override
+void initState() {
+  super.initState();
+  final t = widget.tarea;
+  _tituloCtrl = TextEditingController(text: t.titulo);
+  _notasCtrl = TextEditingController(text: t.notas);
+  _materia = materiasDisponibles.contains(t.materia)
+      ? t.materia
+      : materiasDisponibles.first;
+  _prioridad = t.prioridad;
+  _fechaLimite = t.fechaLimite;
+}
 
   @override
   void dispose() {
