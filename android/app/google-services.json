@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "917070625036",
+    "project_id": "tareau-1058d",
+    "storage_bucket": "tareau-1058d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917070625036:android:adcf79b00582d06cb93129",
+        "android_client_info": {
+          "package_name": "com.example.tareau"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1PPp9srB4N2BUwzz7IGKNoz9-QzA0iCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
