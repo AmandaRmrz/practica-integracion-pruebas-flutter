@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-import 'data/sembrar_datos.dart';
 import 'data/tarea_repository.dart';
 import 'state/tareas_controller.dart';
 import 'ui/lista_tareas_page.dart';
@@ -11,7 +10,6 @@ import 'firebase_options.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  //await sembrarDatos();
   runApp(const TareaUApp());
 }
 
