@@ -3,7 +3,7 @@
 Aplicación móvil hecha en **Flutter** y conectada a **Firebase Cloud Firestore** para organizar y dar seguimiento a tareas de la universidad.
 
 ## Demo en video
-* **Video de funcionamiento completo:** [Ver demostración en YouTube](https://youtu.be/TU_ENLACE_AQUI)
+* **Video de funcionamiento completo:** [Ver demostración en YouTube](https://youtube.com/shorts/_UpAf0cdGLE)
 
 ## Estructura del proyecto (`semana16-integracion`)
 * `lib/` — Código fuente de la aplicación (`data/`, `models/`, `state/`, `ui/`).
